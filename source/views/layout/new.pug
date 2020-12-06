@@ -1,0 +1,27 @@
+extends ../partials/_layout
+
+block content
+  section#venue
+    .container(style="padding-top:20px; background-color: #222")
+      div.title-main(style='text-align: left;')
+        .row(style='text-align: center;')
+          .col-md-12
+            .h2.title(style='color:red') 提醒！
+            .h3.title 喝酒不開車,開車不喝酒
+            .h3.title 
+    .container(style="padding-top:20px; background-color: #222")
+      div.title-main(style='text-align: center;')
+        .row.align-items-center
+          .col-md-12
+            iframe(width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowTransparency="true" style="border:none;overflow:hidden" allow="encrypted-media" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyudosake%2F&tabs=timeline&width=600&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId")  
+
+
+
+block js
+  script.
+    setTimeout(function(){
+      document.querySelectorAll('#navbar ul li')[2].classList.add('active');
+    }, 0);
+block css
+  style(type='text/css').
+    - body

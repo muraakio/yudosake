@@ -1,0 +1,62 @@
+extends ../partials/_layout
+
+block content
+  section#sponsors
+    div.container
+        each level, key in tranformName
+            div(style='text-align: center;')
+                h2.title #{level.name}
+                span.border
+            div.large-wrapper
+              each val, id in sponsors[key]
+                if key === 'special'
+                  .wrapper-special
+                      .main-box
+                        a(style="text-decoration:none;" href=val.link target="_blank")
+                          .img-box(style="display: flex; justify-content: center; align-items: center")
+                            if val.company === 'GraphQL HK'
+                              div.inner_img-box(style="width: 90px;height: 90px")
+                                img.img-responsive(src=val.logo, alt='')
+                            else
+                              div.inner_img-box(style="width: 130px;height: 90px")
+                                img.img-responsive(src=val.logo, alt='')
+                        if val.description
+                          .text-information
+                              .intro-text.text-center(style="margin-top:12px;")                                
+                                p !{val.description.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
+                else 
+                  .wrapper
+                      .main-box
+                        a(style="text-decoration:none;" href=val.link target="_blank")
+                          .img-box(style="display: flex; justify-content: center")
+                            if key === 'titanium'
+                              div.inner_img-box(style="width: 260px;height: 160px; margin:0 20px;")
+                                img.img-responsive(src=val.logo, alt='')
+                            else if key === 'platinum'
+                              div.inner_img-box(style="width: 200px;height: 116px")
+                                img.img-responsive(src=val.logo, alt='')
+                            else if key === 'gold'
+                              div.inner_img-box(style="width: 160px;height: 84px")
+                                img.img-responsive(src=val.logo, alt='')
+                            else if key === 'silver'
+                              div.inner_img-box(style="width: 130px;height: 60px")
+                                img.img-responsive(src=val.logo, alt='')
+                        if val.description
+                          if key === 'titanium'
+                            .text-information-large
+                              .intro-text.text-center(style="margin-top:12px;")
+                                p !{val.description.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
+                          else
+                            .text-information-middle
+                              .intro-text.text-center(style="margin-top:12px;")
+                                p !{val.description.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
+
+block js
+  script.
+    setTimeout(function(){
+      document.querySelectorAll('#navbar ul li')[5].classList.add('active');
+    }, 0);
+
+block css
+  style(type='text/css').
+    
