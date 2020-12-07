@@ -1,0 +1,14 @@
+extends ../partials/_layout
+
+
+
+
+
+block js
+  script.
+    setTimeout(function(){
+      document.querySelectorAll('#navbar ul li')[7].classList.add('active');
+    }, 0);
+block css
+  style(type='text/css').
+    - body
