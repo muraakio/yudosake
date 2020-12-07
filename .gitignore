@@ -1,0 +1,5 @@
+*.DS_Store
+*.log
+node_moudles/
+DIST/
+package-lock.json
