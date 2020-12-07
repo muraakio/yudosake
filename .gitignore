@@ -1,5 +1,5 @@
 *.DS_Store
 *.log
-node_moudles/
+node_modules/
 DIST/
 package-lock.json
