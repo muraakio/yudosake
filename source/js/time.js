@@ -1,4 +1,4 @@
-<script language="JavaScript">
+//<script language="JavaScript">
 function ShowTime(){
 　var NowDate=new Date();
 　var h=NowDate.getHours();

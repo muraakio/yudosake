@@ -1,5 +1,5 @@
 (function($) {
-  $.get('http://blog.jsdc.tw', function(results){
+  $.get('http://blog.yudo.tw', function(results){
     var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     var blogContents = $(results).find('.article-list-item');
     var limit = blogContents.length > 5? 5 : blogContents.length;
@@ -60,7 +60,7 @@
       var blogContent = $(blogContents[i]);
       var linkEl = blogContent.find('a')[0].href;
       var postDate = new Date(linkEl.match(/[\d]{4}\/[\d]{2}\/[\d]{2}/)[0]);
-      var postLink = 'http://blog.jsdc.tw/' + linkEl.match(/[\d]{4}\/[\d]{2}\/[\d]{2}\/\S*/)[0];
+      var postLink = 'http://blog.yudo.tw/' + linkEl.match(/[\d]{4}\/[\d]{2}\/[\d]{2}\/\S*/)[0];
       var postTitle = blogContent.find('.article-titile')[0].innerText;
       var postContent = blogContent.find('p')[0].innerText;
       newsEl.appendChild(addNewsEl(postDate, postTitle, postContent, postLink));

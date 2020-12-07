@@ -3,7 +3,7 @@
   position: relative;
   height: 100%;
   padding: 150px 0;
-  background: $jsdc2019-background;
+  background: $yudo2019-background;
   margin-bottom:200px;
   .container {
     .title {
@@ -37,29 +37,29 @@
           opacity: 1;
         }
       }
-      .jsdc-full-name {
+      .yudo-full-name {
         width: 100%;
         text-align: center;
         button {
-          border: 1px solid $jsdc2019-white;
-          color: $jsdc2019-white;
+          border: 1px solid $yudo2019-white;
+          color: $yudo2019-white;
           width: 50%;
           margin-top: 50px;
           padding:0;
           border-radius: 5px;
           overflow:hidden;
           &:hover {
-            // background: $jsdc2019-white;
+            // background: $yudo2019-white;
             color: black;
             border: none;
           }
           a{
             display:block;
             width:100%;
-            color: $jsdc2019-white;
+            color: $yudo2019-white;
             text-decoration: none;
             &:hover {
-              background: $jsdc2019-white;
+              background: $yudo2019-white;
               color: black;
               border: none;
             }
@@ -69,7 +69,7 @@
           display: block;
           font-size: 25px;
           line-height: 25px;
-          color: $jsdc2019-white;
+          color: $yudo2019-white;
           font-weight: bold;
 
           margin-bottom: 35px;
@@ -78,7 +78,7 @@
           font-size: 16px;
           line-height: 30px;
 
-          color: $jsdc2019-white;
+          color: $yudo2019-white;
           display: block;
         }
         .sub-title {

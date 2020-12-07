@@ -1,12 +1,12 @@
 /* Main */
 
-$jsdc-y: #ffd54f;
-$jsdc-r: #ce4d40;
-$jsdc-g: #34459e;
-$jsdc-b: #3096b2;
+$yudo-y: #ffd54f;
+$yudo-r: #ce4d40;
+$yudo-g: #34459e;
+$yudo-b: #3096b2;
 
-$jsdc2019-background: #222;
-$jsdc2019-white: #e4e4e4;
+$yudo2019-background: #222;
+$yudo2019-white: #e4e4e4;
 .c-font-white {
   color: white;
 }
@@ -34,7 +34,7 @@ div::-webkit-scrollbar-thumb {
 
 body {
   font-family:Microsoft JhengHei, 'Open Sans', sans-serif;
-  background: $jsdc2019-background;
+  background: $yudo2019-background;
   width: 100%;
   height: 100%;
   font-size: 14px;
@@ -52,7 +52,7 @@ body {
   border-bottom: none;
   margin: 0;
   position: fixed;
-  background-color: $jsdc2019-background;
+  background-color: $yudo2019-background;
   z-index: 9999;
   width: 100%;
 
@@ -74,7 +74,7 @@ body {
 
   .navbar-collapse[aria-expanded='true'] {
     display: block;
-    background-color: $jsdc2019-background;
+    background-color: $yudo2019-background;
     overflow: hidden;
   }
   ul {
@@ -86,7 +86,7 @@ body {
     z-index: 9999;
 
     a {
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
 
       &:hover {
         color: #ffc825;
@@ -208,17 +208,17 @@ body {
 
   .news:nth-of-type(1) .date,
   .news:nth-of-type(5) .date {
-    background-color: $jsdc-b;
+    background-color: $yudo-b;
   }
 
   .news:nth-of-type(2) .date,
   .news:nth-of-type(6) .date {
-    background-color: $jsdc-g;
+    background-color: $yudo-g;
   }
 
   .news:nth-of-type(3) .date,
   .news:nth-of-type(7) .date {
-    background-color: $jsdc-r;
+    background-color: $yudo-r;
   }
 
   .date {
@@ -284,8 +284,8 @@ body {
   position: relative;
   padding: 100px 20px 0;
 
-  #about-jsdc {
-    border-bottom: 1px solid $jsdc2019-white;
+  #about-yudo {
+    border-bottom: 1px solid $yudo2019-white;
     // border-radius: _size(border-radius);
     padding: 60px 15px;
 
@@ -303,16 +303,16 @@ body {
 
     .major {
       h2 {
-        color: $jsdc-r - #111;
+        color: $yudo-r - #111;
         font-size: 28px;
       }
       &:after {
-        background: $jsdc-r;
+        background: $yudo-r;
       }
     }
 
     p {
-      color: $jsdc-r;
+      color: $yudo-r;
       text-align: center;
       font-size: 18px;
       line-height: 1.5;
@@ -328,7 +328,7 @@ body {
     left: 50%;
     margin: 0 (_size(element-margin) * 0.5) 0 0;
     &:after {
-      background: $jsdc-y;
+      background: $yudo-y;
       content: '';
       display: inline-block;
       height: 60px;
@@ -348,7 +348,7 @@ body {
     padding: 0 15px;
     max-width: 630px;
     line-height: 1.6em;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     letter-spacing: 2px;
     font-size: 14px;
   }
@@ -396,7 +396,7 @@ body {
   }
 }
 
-/* Last JSDC */
+/* Last yudo */
 #last-year {
   padding: 0 20px;
 
@@ -415,8 +415,8 @@ body {
       display: block;
       font-size: 20px;
       &:hover {
-        background-color: rgba($jsdc-y, 0.4);
-        box-shadow: inset 0 0 0 0 $jsdc-g;
+        background-color: rgba($yudo-y, 0.4);
+        box-shadow: inset 0 0 0 0 $yudo-g;
         text-decoration: none;
         color: white;
       }
@@ -424,7 +424,7 @@ body {
   }
 
   .last-photo {
-    background-image: url('../images/jsdc-last-photo.jpg');
+    background-image: url('../images/yudo-last-photo.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -443,7 +443,7 @@ body {
     }
   }
   .last-video {
-    background-image: url('../images/jsdc-last-video.jpg');
+    background-image: url('../images/yudo-last-video.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -469,7 +469,7 @@ body {
 
 /* Agenda */
 #agenda {
-  // background-color: $jsdc2019-background;
+  // background-color: $yudo2019-background;
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -511,14 +511,14 @@ body {
 #venue {
   position: relative;
   padding: 100px 0;
-  color: $jsdc2019-white;
+  color: $yudo2019-white;
   text-align: left;
   .date {
     text-align: center;
     & > label {
       font-size: 24px;
       padding: 10px 35px;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
       font-weight: bold;
       width: 50%;
       background-color: #eaeaea;
@@ -593,7 +593,7 @@ body {
 #conduct {
   position: relative;
   padding: 100px 0;
-  color: $jsdc2019-white;
+  color: $yudo2019-white;
   text-align: left;
   .content {
     width: 80%;
@@ -612,7 +612,7 @@ body {
     & > label {
       font-size: 24px;
       padding: 10px 35px;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
       font-weight: bold;
       width: 50%;
       background-color: #eaeaea;
@@ -774,23 +774,23 @@ body {
   .text-information {
     height: 100px;
     padding: 0 20px;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     overflow-y: auto;
-    background-color: $jsdc2019-background;
+    background-color: $yudo2019-background;
   }
   .text-information-large {
     height: 320px;
     padding: 0 20px;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     overflow-y: auto;
-    background-color: $jsdc2019-background;
+    background-color: $yudo2019-background;
   }
   .text-information-middle {
     height: 232px;
     padding: 0 20px;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     overflow-y: auto;
-    background-color: $jsdc2019-background;
+    background-color: $yudo2019-background;
   }
   .img-box {
     background-color: inherit;
@@ -835,7 +835,7 @@ body {
     }
     a,
     span {
-      color: $jsdc2019-white !important;
+      color: $yudo2019-white !important;
       border: none !important;
       &:hover {
         text-decoration: none;

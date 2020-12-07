@@ -1,4 +1,4 @@
-$jsdc2019-white: #e4e4e4;
+$yudo2019-white: #e4e4e4;
 // @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700";
 /* Timeline */
 // body {
@@ -19,7 +19,7 @@ $jsdc2019-white: #e4e4e4;
 //   margin-top: 50px;
 //   text-align: center;
 // }
-body .jsdc-background {
+body .yudo-background {
   background-color: #f2f2f2;
 }
 #agenda {
@@ -32,7 +32,7 @@ body .jsdc-background {
     & > label {
       font-size: 24px;
       padding: 10px 35px;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
       font-weight: bold;
       width: 50%;
       background-color: #eaeaea;
@@ -91,7 +91,7 @@ body .jsdc-background {
       }
     }
     .room-title {
-      // color: $jsdc2019-white;
+      // color: $yudo2019-white;
       h2 {
         margin: 1em 0;
         color: #ffc800;
@@ -99,7 +99,7 @@ body .jsdc-background {
     }
   }
   .note {
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     border-radius: 5px;
     background-color: #0099b4;
     display: block;
@@ -120,17 +120,17 @@ body .jsdc-background {
     min-width: 150px;
     text-align: center;
     border-radius: 5px;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     width: 50%;
     margin: 25px 0;
 
     &.room-101 {
       background-color: #0099b4;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
     }
     &.room-102 {
       background-color: #0099b4;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
     }
 
     &:before {
@@ -151,7 +151,7 @@ body .jsdc-background {
       text-align: center;
       line-height: 40px;
       border-radius: 50%;
-      color: $jsdc2019-white;
+      color: $yudo2019-white;
     }
     .back-top {
       background-color: #bbb;
@@ -204,7 +204,7 @@ body .jsdc-background {
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     background: rgba(255, 255, 255, 0.03);
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0 auto 50px auto;
     letter-spacing: 0.5px;
@@ -291,7 +291,7 @@ body .jsdc-background {
   .info-desc {
     display: block;
     font-size: 1.5rem;
-    color: $jsdc2019-white;
+    color: $yudo2019-white;
     text-align: center;
   }
 }
